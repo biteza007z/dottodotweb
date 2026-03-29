@@ -1,0 +1,12 @@
+@import 'tailwindcss' source(none);
+@source '../**/*.{js,ts,jsx,tsx}';
+
+@import 'tw-animate-css';
+@import "./fonts.css";
+@theme {
+  --font-sans:"Mitr", sans-serif;
+
+  --font-subtopic:"Inter", sans-serif;
+
+  --font-text:"Noto Sans Thai Looped", sans-serif;
+}
